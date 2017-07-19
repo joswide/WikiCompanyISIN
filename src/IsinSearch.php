@@ -11,6 +11,12 @@ class IsinSearch{
 		$this->isin = $isin;
 	}
 	
+	/**
+	 *	Return SPARQL query to find a public company by ISIN code
+	 *
+	 *
+	 *	@return String
+	 */
 	public function getQuery(){
 		
 		$isin = $this->isin ;
